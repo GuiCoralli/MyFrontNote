@@ -1,5 +1,5 @@
-import {  NoteItem } from '../../components/NoteItem';
-import { Textarea } from '../../components/TextArea';
+import { NoteItem } from '../../components/NoteItem';
+import { TextArea } from '../../components/TextArea';
 import {  Section } from '../../components/Section';
 import { Button } from '../../components/Button';
 import {  ButtonText } from '../../components/ButtonText';
@@ -99,7 +99,7 @@ export function New() {
                         onChange={e => setTitle(e.target.value)}
                     />
                     
-                    <Textarea 
+                    <TextArea 
                         placeholder="Observações" 
                         onChange={e => setDescription(e.target.value)}
                     />
