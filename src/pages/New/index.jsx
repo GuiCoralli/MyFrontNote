@@ -1,5 +1,5 @@
 import { NoteItem } from '../../components/NoteItem';
-import { TextArea } from '../../components/TextArea';
+import { TextArea  } from "../../components/TextArea";
 import {  Section } from '../../components/Section';
 import { Button } from '../../components/Button';
 import {  ButtonText } from '../../components/ButtonText';
