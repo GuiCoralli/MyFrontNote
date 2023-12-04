@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
-//mudança de nome da pasta para TextArea
-export function TextArea({ value, ...rest}) {
+//mudança de nome da pasta para TextAreas
+export function TextAreas({ value, ...rest}) {
     return (
 
         <Container {...rest}>
